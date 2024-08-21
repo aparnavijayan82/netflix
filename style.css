@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding:0;
+     font-family: 'poppins',sans-serif;
+     box-sizing:border-box ;
+}
+body{
+    background:#000 ;
+    color:#fff;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height:100vh;
+    background-image:url(header-image.png);
+    background-size: cover ;
+    background-position: center;
+    padding:10px 8%;
+    
+    
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:10px 0;
+}
+.logo{
+    width:150;
+    cursor:pointer;
+}
+.nav button{
+    border:0;
+    outline: 0;
+    background: #db0001;
+    color:#fff;
+    padding:7px 20px;
+    font-size: 12px;
+    border-radius:4px;
+    margin-left:10px;
+    cursor: pointer;
+    padding:15px 30px;
+} 
+.language-btn{
+    display:inline-flex;
+    align-items:center ;
+    background: transparent;
+    border:1px solid #fff ;
+    
+}
+.language-btn{
+    width:px;
+    margin-left:10px ;
+}
+.header-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top:100px ;
+}
+    
+.header-content h1{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 600px;
+    max-width:650px ;
+}
+ .header-content {
+    font-weight:400 ;
+    margin-bottom: 20px;
+ }  
+ .email-signup{
+    background:transparent;
+    border-radius:4px;
+    display:flex;
+    align-items:center;
+    margin-top:40px ;
+    overflow:hidden ;
+ }
+ .email-signup input{
+   flex: 1;
+    border:1px solid white;
+    outline:59 px;
+    background: transparent;
+    height: 70px;
+    margin-left:20px ;
+ }
+ .email-signup button{
+    background: #db0001;
+    border:0;
+    width:100px;
+    height: 70px;
+    outline: 0;
+ }
+ .row{
+    padding-top: 50px;
+ }
+.img-col img{
+    height: 100px;
+}
+.row{
+    display:flex ;
+    width: 100%;
+    border-top: rgb(87, 86, 86) 6px solid;
+}
+.row .text-col{
+    flex-basis:50%;
+    margin-top: 50px;
+}
+.row .img-col img{
+    display:block;
+    width:500px;
+    height: 400px;
+    margin: auto;
+}
+.features h2{
+    
+    margin-bottom:20px ;
+}
+.row2{
+    display:flex ;
+    width: 100%;
+    border-top: rgb(87, 86, 86) 6px solid;
+}
+.row2 .image-container{
+    flex:50%;
+
+}
+.row2 .text-col{
+    flex:50%;
+
+}
+.features .text-col h2{
+    font-size: 60px;
+
+  
+}
+.row3{
+    display: flex;
+    width: 100%;
+    border-top: rgb(87,86,86)6px solid;
+}
+.row3 .image-container{
+    flex:50%;
+
+}
+.row3 .text-col{
+    flex:50%;
+   
+}
+
+.row4{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    border-top: rgb(87, 86, 86) 6px solid;
+    
+}
+.row4 .image-container{
+    flex:50%;
+
+}
+.row4 .text-col{
+    flex:50%;
+   }
+   .row5 h2{
+    width:100%;
+    font-weight: 500px;
+    text-align: center;
+    
+    
+   }
+   .accordion{
+    margin:60px auto;
+    width:100%;
+    max-width: 750px;
+   }
+   .accordion li label{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    font:18px;
+    font-weight:500 ;
+    background: #303030;
+    margin-bottom:2px ;
+    cursor:pointer;
+    position:relative;
+   }
+
+   .row5{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+   }
+
+   .frq{
+    width: 800px;
+    height:60px ;
+    font-size:40px ;
+    margin-left: 350px;
+   }
+
+
+   
+   .frq button{
+    background: transparent;
+    border: 1px solid white;
+    width: 600px;
+    height: 50px;
+    color: #fff;
+    margin-top: 10px;
+    
+    
+   }
+   .foot{
+    text-align: center;
+    border-radius:4px ;
+    display: flex;
+    overflow: hidden;
+    
+   }
+   
+ .email-signup1{
+    background:transparent;
+    align-items:center;
+    margin-top:40px ;
+    text-align: center;
+    margin-left: 800px;
+    overflow:hidden ;
+    
+ }
+ .email-signup1 input{
+    border:1px solid white;
+    width: 300px;
+    margin-left:20px ;
+    outline:80px;
+    background: transparent;
+    font-size: 16px;
+    padding-right: 5px;
+    text-align: center;
+    float: left;
+    height: 50px;
+    
+ }
+ .email-signup1 button{
+    background: #db0001;
+    border:1px solid white;
+    color: white;
+    width:200px;
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+ }
+ .foot{
+    font-size:30px ;
+
+ }
+ .features5{
+    border-top: 10px solid grey;
+  margin-top: 550px;
+    color:white;
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+.row5 p{
+    color: beige;
+    font-size: 50px;  
+}
+.row5 button{
+    width: 900px;
+  height: 90px;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  font-size: 25px;
+}
+.row5{
+    color:beige;
+    font-size: 25px;
+}
+.eamil-signup{
+    align-items:center ;
+    border-radius: 4px;
+    display: flex;
+    overflow: hidden;
+
+}
+footer{
+    border-top: 10px solid grey;
+  padding-left: 100px;
+  padding-top: 50px;
+    color:white;
+    height: 300px;
+    font-family: sans-serif;
+
+   
+}
+.footer button{
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    font-size: 16px;
+}
+.footer a{
+    color:white;
+
+  
+}
+
+.footer1{
+    width: 25%;
+    float: left;
+    
+    
+}
+
+.footer2{
+    width: 15%;
+    float: left;
+}
+
+.footer3{
+    width: 25%;
+    float: left;
+}
+
+.features5{
+    border-top: 10px solid grey;
+  margin-top: 550px;
+    color:white;
+   text-align: center;
+   margin-bottom: 25px;
+   height: 850px;
+}
+
+.row5 p{
+    color: beige;
+    font-size: 50px;  
+}
+.row5 button{
+    width: 900px;
+  height: 90px;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  font-size: 25px;
+}
+
+.row5 h3{
+    color: beige;
+    font-size: 25px; 
+}
+
+.email-signup{
+    
+    align-items: center;
+    border-radius: 4px;
+    
+    margin-left:100px ;
+    overflow: hidden;
+    
+}
+.email-signup1 input{
+  
+    border: 1px solid white;
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+    background: transparent;
+    margin-top:5px ;
+    font-size: 16px;
+    padding-right: 5px;
+    text-align: center;
+
+}
+.email-signup1 button{
+    
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    width: 200px;
+    background: red;
+    font-size: 16px;
+  margin-left: 10px;
+}
+.footer{
+    border-top: 10px solid grey;
+  padding-left: 100px;
+  padding-top: 50px;
+    color:white;
+    height: 300px;
+    font-family: sans-serif;
+
+   
+}
+.footer button{
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    font-size: 16px;
+}
+.footer a{
+    color:white;
+
+  
+}
+
+.footer1{
+    width: 25%;
+    float: left;
+    height: 100PX;
+    
+}
+
+.footer2{
+    width: 15%;
+    float: left;
+}
+
+.footer3{
+    width: 25%;
+    float: left;
+}
+
+.footer4{
+    width: 25%;
+    float: left;
+}
+
+.element a{
+display:block;
+padding-bottom: 10px;
+}
+
+    
